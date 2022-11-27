@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/toast"
+        android:backgroundTint="#FF0057"/>
+
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="#8BFF03"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textColor="#000"
+        android:textSize="250sp" />
+
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#03A9F4"
+        android:text="@string/count" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:backgroundTint="#3CFFD9"
+        android:text="reset"/>
+
+
+</LinearLayout>

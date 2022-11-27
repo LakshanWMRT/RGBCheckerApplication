@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">scoreboard</string>
+    <string name="toast">Toast</string>
+    <string name="_0">0</string>
+    <string name="count">Count</string>
+    <string name="blue_value">BLUE VALUE</string>
+    <string name="green_value">GREEN VALUE</string>
+    <string name="generate">Generate</string>
+    <string name="_194089t_assignment_01">194089T Assignment 01</string>
+    <string name="red_value">RED VALUE</string>
+</resources>
